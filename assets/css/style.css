@@ -58,17 +58,35 @@ body {
 }
 
 .logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.logo-main {
     color: white;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -0.5px;
+}
+
+.logo-sub {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-top: -2px;
 }
 
 .logo:hover .logo-img {
     opacity: 0.8;
 }
 
-.logo:hover .logo-text {
+.logo:hover .logo-main {
+    color: #ffd600;
+}
+
+.logo:hover .logo-sub {
     color: #ffd600;
 }
 
